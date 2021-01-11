@@ -1,0 +1,42 @@
+:root {
+    /* Primary Colors */
+    --bright-red: hsl(12, 88%, 59%);
+    --dark-blue: hsl(228, 39%, 23%);
+
+    /* Neutral Colors */
+    --dark-grayish-blue: hsl(227, 12%, 61%);
+    --very-dark-blue: hsl(233, 12%, 13%);
+    --very-pale-red: hsl(13, 100%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam',
+        sans-serif;
+}
+
+body {
+    font-size: 1rem;
+}
+
+/* Attribution Text Styling */
+.attribution {
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(12, 88%, 59%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
