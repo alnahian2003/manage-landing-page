@@ -19,29 +19,206 @@
 </head>
 
 <body>
-  <!-- ### Header Section ### -->
-  <header>
-    <h1>Hello World</h1>
-    <!-- Navigation Bar -->
-    <nav></nav>
-  </header>
-  <!-- ### End Header Section ### -->
+  <section class="wrapper">
+    <section class="intro">
+      <!-- ### Header Section ### -->
+      <header id="navbar">
+        <div class="navbar-brand">
+          <img class="logo" src="./images/logo.svg" alt="Manage">
+        </div>
 
-  <!-- ### Main Section ### -->
-  <main></main>
-  <!-- ### End Main Section ### -->
+        <!-- Navigation Bar -->
+        <nav class="navbar-menu">
+          <ul class="nav-items">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+        <div class="cta-btn">
+          <button class="get-started btn-orange" value="Get Started">Get Started</button>
+        </div>
+      </header>
+      <!-- ### End Header Section ### -->
+
+      <!-- ### Hero Section ### -->
+      <section class="hero">
+        <div class="container">
+          <!-- Hero Description -->
+          <div class="col-left">
+            <h1>Bring everyone together to build better products.</h1>
+            <p>
+              Manage makes it simple for software teams to plan day-to-day
+              tasks while keeping the larger team goals in view.
+            </p>
+            <button class="get-started btn-orange" value="Get Started">Get Started</button>
+          </div>
+          <!-- Hero Image -->
+          <div class="col-right">
+            <img src="./images/illustration-intro.svg" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- ### End Hero Section ### -->
+
+    </section>
+
+    <!-- ### Main Section ### -->
+    <main id="main">
+      <!-- Features Section -->
+      <section class="features">
+        <div class="container">
+          <div class="col-left">
+            <h2>What’s different about Manage?</h2>
+            <p>
+              Manage provides all the functionality your team needs, without
+              the complexity. Our software is tailor-made for modern digital
+              product teams.
+            </p>
+          </div>
+          <div class="col-right">
+            <div class="features-details">
+
+              <!-- First Step -->
+              <div class="steps step-1">
+                <div class="steps-heading">
+                  <div class="capsule">
+                    <span>01</span>
+                  </div>
+                  <div class="steps-title">
+                    <h4>Track company-wide progress</h4>
+                  </div>
+                </div>
+                <div class="steps-details">
+                  <p>
+                    See how your day-to-day tasks fit into the wider vision. Go from
+                    tracking progress at the milestone level all the way done to the
+                    smallest of details. Never lose sight of the bigger picture again.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Second Step -->
+              <div class="steps step-2">
+                <div class="steps-heading">
+                  <div class="capsule">
+                    <span>02</span>
+                  </div>
+                  <div class="steps-title">
+                    <h4>Advanced built-in reports</h4>
+                  </div>
+                </div>
+                <div class="steps-details">
+                  <p>
+                    Set internal delivery estimates and track progress toward company
+                    goals. Our customisable dashboard helps you build out the reports
+                    you need to keep key stakeholders informed.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Third Step -->
+              <div class="steps step-3">
+                <div class="steps-heading">
+                  <div class="capsule">
+                    <span>03</span>
+                  </div>
+                  <div class="steps-title">
+                    <h4>Everything you need in one place</h4>
+                  </div>
+                </div>
+                <div class="steps-details">
+                  <p>
+                    Stop jumping from one service to another to communicate, store files,
+                    track tasks and share documents. Manage offers an all-in-one team
+                    productivity solution.
+                  </p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Carousel Section -->
+      <section class="carousel">
+
+      </section>
+
+      <!-- Call To Action/CTA Section -->
+      <section class="cta">
+        <h3>Simplify how your team works today.</h3>
+        <button class="get-started btn-white" value="Get Started">Get Started</button>
+      </section>
+
+    </main>
+    <!-- ### End Main Section ### -->
+  </section>
 
   <!-- ### Footer Section ### -->
-  <footer></footer>
+  <footer>
+    <div class="container">
+      <div class="col col-1">
+        <div class="footer-logo">
+          <img src="./images/footer-logo.svg" alt="Manage">
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><img src="./images/icon-facebook.svg" alt="facebook"></li>
+            <li><img src="./images/icon-youtube.svg" alt="youtube"></li>
+            <li><img src="./images/icon-twitter.svg" alt="twitter"></li>
+            <li><img src="./images/icon-pinterest.svg" alt="pinterest"></li>
+            <li><img src="./images/icon-instagram.svg" alt="instagram"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col col-2">
+        <div class="menu-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col col-3">
+        <div class="menu-links">
+          <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col col-4">
+        <div class="newsletter">
+          <form class="newsletter-form">
+            <input type="email" name="Email" id="email-input" placeholder="Updates in your inbox…">
+            <input type="submit" value="Go">
+          </form>
+        </div>
+
+        <div class="copyright">
+          <p>Copyright 2020. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- ### End Footer Section ### -->
 
   <!-- Attribution -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://alnahian2003.github.io/me" target="_blank">Al Nahian</a>.
   </div>
   <!-- Main JavaScript -->
   <script src="main.js"></script>
+  <script async src="carousel.js"></script>
 </body>
 
 </html>

@@ -8,6 +8,7 @@
     --very-dark-blue: hsl(233, 12%, 13%);
     --very-pale-red: hsl(13, 100%, 96%);
     --very-light-gray: hsl(0, 0%, 98%);
+    --lime-green: hsl(147, 100%, 65%);
 }
 
 html {
@@ -26,17 +27,44 @@ body {
     font-size: 1rem;
 }
 
+img {
+    /* width: 100%; */
+    height: auto;
+    user-select: none;
+    pointer-events: none;
+}
+
+a {
+    color: var(--bright-red);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--very-dark-blue);
+    color: var(--very-light-gray);
+    padding: 20px;
+}
+
 /* Attribution Text Styling */
 .attribution {
     text-align: center;
+    background-color: var(--very-dark-blue);
+    color: var(--very-light-gray);
+    padding: 10px;
 }
 
 .attribution a {
-    color: hsl(12, 88%, 59%);
+    color: var(--bright-red);
     font-weight: 700;
     text-decoration: none;
 }
 
 .attribution a:hover {
     text-decoration: underline;
+}
+
+.attribution a:focus {
+    text-decoration: underline;
+    color: var(--lime-green);
 }
