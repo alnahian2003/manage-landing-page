@@ -120,9 +120,6 @@ footer {
 
 /* End Reusable Components */
 
-/* Wrapper Section */
-.wrapper {}
-
 /* Intro Section Styling */
 .intro {
     background: url(./images/bg-tablet-pattern.svg) no-repeat 135% -190px;
@@ -606,8 +603,13 @@ footer {
         text-align: center;
     }
 
-    #navbar {
+    .navbar-menu,
+    .cta-btn {
         display: none !important;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
     }
 
     #hero {
@@ -747,8 +749,13 @@ footer {
         text-align: center;
     }
 
-    #navbar {
+    .navbar-menu,
+    .cta-btn {
         display: none !important;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
     }
 
     #hero {
