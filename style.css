@@ -101,7 +101,14 @@ footer {
 }
 
 .hide-desktop {
-    display: none;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    transform: translateY(-60px);
+}
+
+.hide-desktop:hover{
+    transform: translateY(-80px);
 }
 
 .col-left,
